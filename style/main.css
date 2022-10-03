@@ -5,6 +5,7 @@
   --color-texto-principal: #ffffff;
 }
 .header {
+    background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,6 +41,7 @@
   color: var(--color-texto-principal);
   font-size: 30px;
   text-align: center;
+  width: min-content;
 }
 @media all and (min-width: 768px) {
   .header {
@@ -59,6 +61,5 @@
   }
   .title {
     font-size: 40px;
-    width: min-content;
   }
 }
