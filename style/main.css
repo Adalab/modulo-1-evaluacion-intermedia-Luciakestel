@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -26,9 +26,13 @@
   display: flex;
 }
 .list-element {
-  margin-right: 20px;
   font-size: 16px;
+}
+.link {
+  text-decoration: none;
   color: var(--color-menu);
+  padding: 10px 10px 13px 10px;
+  text-transform: uppercase;
 }
 .main {
   background-color: var(--color-fondo);
@@ -42,6 +46,7 @@
   font-size: 30px;
   text-align: center;
   width: min-content;
+  text-transform: capitalize;
 }
 @media all and (min-width: 768px) {
   .header {
@@ -55,9 +60,6 @@
   }
   .nav {
     margin-right: 10px;
-  }
-  .list-element {
-    font-size: 16px;
   }
   .title {
     font-size: 40px;
